@@ -1,0 +1,141 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "打开",                          IDT_FileOpen
+        MENUITEM "保存",                          IDT_FileSave
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          IDM_Exit
+    END
+    POPUP "模式"
+    BEGIN
+        MENUITEM "线",                           IDM_DrawLine
+        MENUITEM "圆",                           IDM_DrawCircle
+        MENUITEM "矩形",                          IDM_DrawRect
+        MENUITEM "曲线",                          IDM_DrawCurve
+        MENUITEM "三角形",                         IDM_DrawTriangle
+        POPUP "Leap模式(Beta)"
+        BEGIN
+            MENUITEM "打开",                          IDM_LEAPON
+            MENUITEM "关闭",                          IDM_LEAPOFF
+        END
+    END
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "颜色",                          IDM_Color
+        POPUP "线宽"
+        BEGIN
+            MENUITEM "细",                           IDM_hPenBody1
+            MENUITEM "中",                           IDM_hPenBody2
+            MENUITEM "粗",                           IDM_hPenBody3
+        END
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于Leap Mode",                 IDM_LEAPMODE
+        MENUITEM "关于Leap Motion",               IDM_LEAP
+        MENUITEM "关于Leap Painter",              IDM_LEAPPAINTER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "pen.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDM_DrawLine            "画直线"
+    IDM_DrawCircle          "画（椭）圆"
+    IDM_DrawRect            "画矩形"
+    IDM_Exit                "退出"
+    IDM_DrawCurve           "画曲线"
+    IDM_DrawTriangle        "画三角形"
+    IDM_HELP                "帮助"
+    IDM_Color               "颜色"
+    IDT_FileNew             "新建文件"
+    IDT_FileOpen            "打开文件"
+    IDT_FileSave            "保存文件"
+    IDM_hPenBody            "线宽"
+    IDM_hPenBody1           "细"
+    IDM_hPenBody2           "中"
+    IDM_hPenBody3           "粗"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
